@@ -1,0 +1,25 @@
+name: OriginsGender
+version: 1.0.0
+main: com.spikeyhunter.originsgender.Main
+description: Custom Commands
+commands:
+  male:
+    description: Change your rank gender to male
+    permissions:
+      gender.use
+      gender.male
+      gender.male.count
+      gender.male.duke
+      gender.male.king
+      gender.male.emperor
+      gender.male.imperator
+  female:
+    description: Change your rank gender to female
+    permissions:
+      gender.use
+      gender.female
+      gender.female.countess
+      gender.female.duchess
+      gender.female.queen
+      gender.female.empress
+      gender.female.imperatrix
